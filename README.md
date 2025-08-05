@@ -41,3 +41,7 @@ RPADividirPDF/
 git init
 git add .
 git commit -m "Projeto RPA dividir PDF"
+git status
+git remote add origin https://github.com/danieltorreess/RPADividirPDF.git
+git branch -M main
+git push -u origin main
