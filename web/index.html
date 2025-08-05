@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Atento - Dividir PDF</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="left">
+      <h1>Dividir PDF</h1>
+
+      <div class="input-row">
+        <input type="text" name="input-pdf" placeholder="Selecionar PDF..." readonly />
+        <button onclick="escolherPDF()" class="icon-btn">
+          <img src="assets/folder-icon.png" class="icon" />
+        </button>
+      </div>
+
+      <div class="input-row">
+        <input type="text" id="input-save" placeholder="Salvar como..." readonly />
+        <button onclick="escolherPasta()" class="icon-btn">
+          <img src="assets/save-icon.png" class="icon" />
+        </button>
+      </div>
+
+      <button onclick="salvar()" class="btn-salvar">
+        <img src="assets/pdf-icon.png" class="icon" />
+        <span>Salvar</span>
+      </button>
+
+      <p id="status"></p>
+    </div>
+
+    <div class="right">
+      <img src="assets/logo.png" alt="Logo" class="logo" />
+      <img src="assets/mini-logo.png" class="mini-logo" />
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

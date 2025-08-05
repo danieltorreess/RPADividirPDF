@@ -1,0 +1,35 @@
+# Ambientes virtuais
+.venv/
+venv/
+env/
+
+# Cache do Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# PyInstaller build
+build/
+dist/
+*.spec
+
+# Logs
+*.log
+
+# Arquivos temporários do sistema
+*.swp
+*.tmp
+
+# Node/Web
+node_modules/
+*.lock
+
+# Outros
+.webview/
